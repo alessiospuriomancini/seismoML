@@ -18,5 +18,3 @@ The 9 approaches are as follows:
 
 There should be one ipynb for each of these cases. Moreover, this repository contains the possible preprocessing steps, and the raw data obtained ith some Matlab code.
 All of the other code is in Python3. 
-
-ciao3
