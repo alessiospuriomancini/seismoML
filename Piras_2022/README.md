@@ -8,7 +8,7 @@ Feel free to [fork](https://github.com/alessiospuriomancini/seismoML/fork) this 
 
 ## Citation
 
-If you , please cite the corresponding papers:
+If you work with parts of this paper or its data byproducts, please cite the corresponding paper:
 
      @article{Piras22,
         author = {TBC},
