@@ -1,6 +1,6 @@
 # SeismoML: generative models for deep learning-accelerated Bayesian inference of seismic events
 
-This is the repository for the paper [`"Accelerating Bayesian microseismic event location with deep learning"`](https://se.copernicus.org/articles/12/1683/2021/)` by A. Spurio Mancini et al. The repository is a collection of deep generative models for hyper-fast generation of syntethic microseismic traces given their coordinates within a 3D simulated domain. The generative models described in the paper are:
+This is the repository for the paper [`"Accelerating Bayesian microseismic event location with deep learning"`](https://se.copernicus.org/articles/12/1683/2021/) by A. Spurio Mancini et al. The repository is a collection of deep generative models for hyper-fast generation of syntethic microseismic traces given their coordinates within a 3D simulated domain. The generative models described in the paper are:
 
 1) `NN_direct`: direct emulation of the seismic traces from the coordinates using a Neural Network (NN)
 2) `PCA + NN`: NN emulation of Principal Components of the seismic traces retained from Principal Component Analysis (PCA) 
