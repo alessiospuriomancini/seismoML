@@ -1,0 +1,6 @@
+ChainConsumer==0.31.0
+jupyter==1.0.0
+matplotlib==3.2.2
+numpy==1.18.5
+pymultinest==2.9
+tensorflow==1.15.0
