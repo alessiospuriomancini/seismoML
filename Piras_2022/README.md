@@ -20,7 +20,7 @@ We provide three Jupyter notebooks, to deal with the three different source mech
 - [`dc`](https://github.com/alessiospuriomancini/seismoML/blob/main/Piras_2022/dc.ipynb): contains the model training and inference for double couple (DC) sources.
 - [`clvd`](https://github.com/alessiospuriomancini/seismoML/blob/main/Piras_2022/clvd.ipynb): contains the model training and inference for compensated linear vector dipole (CLVD) sources.
 
-All these analyses are done on subsets of the original data used for the paper, considering only 5 receivers and 1000 seismograms for each receiver (shared in [`data`](https://github.com/alessiospuriomancini/seismoML/blob/main/Piras_2022/data/)); we only consider synthetic Gaussian noise. We also provide the [`saved_models`](https://github.com/alessiospuriomancini/seismoML/blob/main/Piras_2022/saved_models/) folder, with the saved models trained on the entire dataset, or on this smaller version of it (indicated with the suffix `smaller`). The folder [`inference`](https://github.com/alessiospuriomancini/seismoML/blob/main/Piras_2022/inference/) contains the inference results for each source mechanism with the models trained on this smaller dataset, and the observation taken from it as well; change the name of the folder within the notebooks if you want to re-run inference, otherwise these saved results will be retrieved to save you time. In the same folder, you will find the paper results, with the models trained on the entire dataset, and the observation taken from the larger dataset. The [`utils`](https://github.com/alessiospuriomancini/seismoML/blob/main/Piras_2022/utils.py) script contains a few utilities used in the notebooks.
+All these analyses are done on subsets of the original data used for the paper, considering only 5 receivers and 1000 seismograms for each receiver (shared in [`data`](https://github.com/alessiospuriomancini/seismoML/blob/main/Piras_2022/data/)); we only consider synthetic Gaussian noise. We also provide the [`saved_models`](https://github.com/alessiospuriomancini/seismoML/blob/main/Piras_2022/saved_models/) folder, with the saved models trained on the entire dataset, or on this smaller version of it (indicated with the suffix `smaller`). The folder [`inference`](https://github.com/alessiospuriomancini/seismoML/blob/main/Piras_2022/inference/) contains the inference results for each source mechanism with the models trained on this smaller dataset (suffix: `smaller`), and the observation taken from it as well; change the name of the folder within the notebooks (cells 12 and 15) if you want to re-run the MCMC chains, otherwise these saved results will be retrieved to save you time. In the same folder, you will find the paper results, with the models trained on the entire dataset, and the observation taken from the larger dataset. The [`utils`](https://github.com/alessiospuriomancini/seismoML/blob/main/Piras_2022/utils.py) script contains a few utilities used in the notebooks.
 
 Note that we do not deal with arrival time techniques here, and that we only consider synthetic Gaussian noise; for the full analysis, including realistic noise, density and velocity models, and the whole dataset of seismograms, reach out to [Davide Piras](mailto:dr.davide.piras@gmail.com).
 
@@ -33,12 +33,16 @@ Feel free to [fork](https://github.com/alessiospuriomancini/seismoML/fork) this 
 If you work with parts of this paper or its data byproducts, please cite the corresponding paper:
 
      @article{Piras22,
-        author = {TBC},
-         title = {TBC},
-       journal = {TBC},
-        eprint = {TBC},
-          year = {TBC}
-     }
-
+              author = {Piras, D and Mancini, A Spurio and Ferreira, A M G and Joachimi, B and Hobson, M P},
+              title = "{Towards fast machine-learning-assisted Bayesian posterior inference of microseismic event location and source mechanism}",
+              journal = {Geophysical Journal International},
+              year = {2022},
+              month = {10},
+              issn = {0956-540X},
+              doi = {10.1093/gji/ggac385},
+              url = {https://doi.org/10.1093/gji/ggac385},
+              note = {ggac385},
+              eprint = {https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggac385/46356491/ggac385.pdf},
+             }
 
 
