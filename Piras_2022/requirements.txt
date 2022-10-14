@@ -3,4 +3,5 @@ jupyter==1.0.0
 matplotlib==3.2.2
 numpy==1.18.5
 pymultinest==2.9
+scikit-learn==0.23.1
 tensorflow==1.15.0
