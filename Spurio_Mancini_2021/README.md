@@ -35,14 +35,14 @@ The models used for the paper `"Accelerating Bayesian microseismic event locatio
 
 If you use byproducts of this analysis, please cite the relevant paper:
    
-  @Article{SpurioMancini211,
-  AUTHOR = {Spurio Mancini, A. and Piras, D. and Ferreira, A. M. G. and Hobson, M. P. and Joachimi, B.},
-  TITLE = {Accelerating Bayesian microseismic event location with deep learning},
-  JOURNAL = {Solid Earth},
-  VOLUME = {12},
-  YEAR = {2021},
-  NUMBER = {7},
-  PAGES = {1683--1705},
-  URL = {https://se.copernicus.org/articles/12/1683/2021/},
-  DOI = {10.5194/se-12-1683-2021}
-  }
+    @Article{SpurioMancini211,
+    AUTHOR = {Spurio Mancini, A. and Piras, D. and Ferreira, A. M. G. and Hobson, M. P. and Joachimi, B.},
+    TITLE = {Accelerating Bayesian microseismic event location with deep learning},
+    JOURNAL = {Solid Earth},
+    VOLUME = {12},
+    YEAR = {2021},
+    NUMBER = {7},
+    PAGES = {1683--1705},
+    URL = {https://se.copernicus.org/articles/12/1683/2021/},
+    DOI = {10.5194/se-12-1683-2021}
+    }
