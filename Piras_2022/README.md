@@ -16,7 +16,7 @@ At this point you should be able to run the Jupyter notebooks. If you have troub
 ## Content description
 We provide three Jupyter notebooks, to deal with the three different source mechanisms:
 
-- [`isotropic`](https://github.com/alessiospuriomancini/seismoML/blob/main/Piras_2022/isotropic.ipynb): contains the model training and inference for isotropic sources. 
+- [`isotropic`](https://github.com/alessiospuriomancini/seismoML/blob/main/Piras_2022/isotropic.ipynb): contains the model training and inference for isotropic (ISO) sources. 
 - [`dc`](https://github.com/alessiospuriomancini/seismoML/blob/main/Piras_2022/dc.ipynb): contains the model training and inference for double couple (DC) sources.
 - [`clvd`](https://github.com/alessiospuriomancini/seismoML/blob/main/Piras_2022/clvd.ipynb): contains the model training and inference for compensated linear vector dipole (CLVD) sources.
 
