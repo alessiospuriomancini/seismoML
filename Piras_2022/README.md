@@ -3,7 +3,7 @@
 This is the repository for the paper [`"Towards fast machine-learning-assisted Bayesian posterior inference of microseismic event location and source mechanism"`](https://academic.oup.com/gji/advance-article-abstract/doi/10.1093/gji/ggac385/6750231?utm_source=advanceaccess&utm_campaign=gji&utm_medium=email) by Piras et al. The repository contains most material to reproduce the results of the paper, or descriptions on how to do it. If anything is unclear, or if you need access to any dataset that is not available here, do not hesitate to send an email to [Davide Piras](mailto:dr.davide.piras@gmail.com).
 
 ## Installation
-We recommend creating a fresh `conda` environment, and install all packages listed in `requirements.txt`. The work presented in the paper has been done with `python 3.6.10` (now outdated), but it should work seamlessly even with more recent versions.
+We recommend creating a fresh `conda` environment, and installing all packages listed in `requirements.txt`. The work presented in the paper has been done with `python 3.6.10` (now outdated), but it should work seamlessly even with more recent versions.
 
     conda create -n seismoML python=3.6.10
     conda activate seismoML
@@ -11,7 +11,7 @@ We recommend creating a fresh `conda` environment, and install all packages list
     cd seismoML/Piras_2022
     pip install -r requirements.txt
    
-At this point you should be able to run the Jupyter notebooks. If you have trouble installing `pymultinest`, have a lookat its [installation page](https://johannesbuchner.github.io/PyMultiNest/install.html).
+At this point you should be able to run the Jupyter notebooks. If you have trouble installing `pymultinest`, have a look at its [installation page](https://johannesbuchner.github.io/PyMultiNest/install.html).
 
 ## Content description
 We provide three Jupyter notebooks, to deal with the three different source mechanisms:
