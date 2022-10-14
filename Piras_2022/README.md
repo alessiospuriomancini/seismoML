@@ -33,16 +33,16 @@ Feel free to [fork](https://github.com/alessiospuriomancini/seismoML/fork) this 
 If you work with parts of this paper or its data byproducts, please cite the corresponding paper:
 
      @article{Piras22,
-              author = {Piras, D and Mancini, A Spurio and Ferreira, A M G and Joachimi, B and Hobson, M P},
-              title = "{Towards fast machine-learning-assisted Bayesian posterior inference of microseismic event location and source mechanism}",
-              journal = {Geophysical Journal International},
-              year = {2022},
-              month = {10},
-              issn = {0956-540X},
-              doi = {10.1093/gji/ggac385},
-              url = {https://doi.org/10.1093/gji/ggac385},
-              note = {ggac385},
-              eprint = {https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggac385/46356491/ggac385.pdf},
-             }
+      author = {Piras, D and Mancini, A Spurio and Ferreira, A M G and Joachimi, B and Hobson, M P},
+      title = "{Towards fast machine-learning-assisted Bayesian posterior inference of microseismic event location and source mechanism}",
+      journal = {Geophysical Journal International},
+      year = {2022},
+      month = {10},
+      issn = {0956-540X},
+      doi = {10.1093/gji/ggac385},
+      url = {https://doi.org/10.1093/gji/ggac385},
+      note = {ggac385},
+      eprint = {https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggac385/46356491/ggac385.pdf},
+      }
 
 
